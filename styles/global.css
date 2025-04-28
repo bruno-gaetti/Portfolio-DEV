@@ -24,5 +24,17 @@
 
   /* Definindo tipografias */
 
-  --font-family: 'Asap', sans-serif;
+  --font-family-primary: 'Asap', sans-serif;
+  --title-lg: 700 56px/120% var(--font-family-primary);
+  --tittle-md: 700 24px/120% var(--font-family-primary);
+  --tittle-sm: 700 16px/120% var(--font-family-primary);
+
+  --font-family-secundary: 'Inconsolata', sans-serif;
+  --subtitle: 400 20px/120% var(--font-family-secundary);
+
+  --font-family-tertiary: 'Maven Pro', sans-serif;
+  --text-md: 400 16px/140% var(--font-family-tertiary);
+  --text-sm: 400 14px/140% var(--font-family-tertiary);
+
+
 }
