@@ -26,8 +26,8 @@
 
   --font-family-primary: 'Asap', sans-serif;
   --title-lg: 700 56px/120% var(--font-family-primary);
-  --tittle-md: 700 24px/120% var(--font-family-primary);
-  --tittle-sm: 700 16px/120% var(--font-family-primary);
+  --title-md: 700 24px/120% var(--font-family-primary);
+  --title-sm: 700 16px/120% var(--font-family-primary);
 
   --font-family-secundary: 'Inconsolata', sans-serif;
   --subtitle: 400 20px/120% var(--font-family-secundary);

@@ -1,0 +1,59 @@
+.intro{
+  width: auto;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-image: url(../assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+}
+
+#avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 125px;
+  margin-bottom: 20px;
+}
+
+#avatar > img{
+  width: 112px;
+  height: auto;
+
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--red);
+  padding: 4.5px;
+}
+
+.text{
+  display: absolute;
+  align-items: center;
+}
+
+
+
+.title-lg{
+  color: var(--gray-600);
+  font: var(--title-lg);
+  margin-bottom: 20px;
+}
+
+.text-sm{
+  color: var(--gray-500);
+  font: var(--text-sm);
+}
+
+
+.red{
+  color: var(--red);
+  font: var(--subtitle);
+}
+
+
+.subtitle{
+  color: var(--gray-500);
+  font: var(--subtitle);
+}
