@@ -1,0 +1,12 @@
+main{
+  display: flex;
+  width: auto;
+  height: 916px;
+  background-color: var(--gray-300);
+}
+
+
+.subtitle{
+  color: var(--red);
+  font: var(--subtitle);
+}
