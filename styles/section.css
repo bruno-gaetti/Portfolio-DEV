@@ -1,13 +1,13 @@
-section{
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 88px 120px 120px;
   gap: 56px;
-  
+
   width: auto;
-  height: 480px;
+  min-height: 480px; /* Usa altura mínima em vez de fixa */
   background-color: var(--gray-100);
 }
 
@@ -17,20 +17,29 @@ section > header{
 }
 
 
-.grid-services{
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
+.grid-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Melhor prática */
+  gap: 32px; /* Espaçamento entre os cards */
+  justify-items: center; /* Centraliza os cards na célula */
+  align-items: start; /* Alinha os cards no topo */
 }
+
 
 .card-services {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap:8px;
-  text-align: center;
-  padding: 24px;
+  justify-content: center; /* Alinha verticalmente */
+  align-items: flex-start;  /* Alinha à esquerda (use 'center' se quiser centralizado) */
+  gap: 8px; /* Espaço entre título e descrição */
+
+  width: 280px;
+  height: 155px;
+
   background-color: var(--gray-100);
   border: 2px solid #16181D;
   border-radius: 12px;
+  padding: 20px; /* Adiciona um espaçamento interno */
 }
+
+
